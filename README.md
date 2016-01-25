@@ -16,7 +16,7 @@
 
 2. 在app2.js中配置frevolObj对象的正确别名。
 
-- `var frevolObj={"Sarah":{"r":105,"g":"","b":255,"volume":0}}; `
+ `var frevolObj={"Sarah":{"r":105,"g":"","b":255,"volume":0}}; `
 
 3. 根据[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)文档设置`urlproxy`参数,可能遇到[跨域访问问题](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
 
