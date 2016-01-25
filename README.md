@@ -6,7 +6,7 @@
 
 ###安装
 
-1. git clone git@github.com:GabrielchenCN/yunba-wifi-bulb-example.git
+1. `git clone git@github.com:GabrielchenCN/yunba-wifi-bulb-example.git`
 2. [使用nginx部署应用和跨域问题处理](http://www.cnblogs.com/gabrielchen/p/5066120.html)
  
 
