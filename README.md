@@ -12,16 +12,17 @@
 
 ###配置
 
-- 首先确保云巴灯泡有相应别名和正确连接上服务器，详见:[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)。
+1. 首先确保云巴灯泡有相应别名和正确连接上服务器，详见:[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)。
 
-- 在app2.js中配置frevolObj对象的正确别名。
+2. 在app2.js中配置frevolObj对象的正确别名。
 
 - `var frevolObj={"Sarah":{"r":105,"g":"","b":255,"volume":0}}; `
 
-- 根据[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)文档设置`urlproxy`参数,可能遇到[跨域访问问题](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
+3. 根据[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)文档设置`urlproxy`参数,可能遇到[跨域访问问题](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
 
 ###运行
 
+- 运行index.html
 - 建议使用firefox运行或47版本以下chrome，并允许浏览器共享麦克风。
 
 ###浏览器支持
