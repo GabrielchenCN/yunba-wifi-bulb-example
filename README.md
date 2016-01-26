@@ -20,9 +20,10 @@
 
 3. 因为是前端AJAX请求，所以直接请求url可能遇到跨域问题。设置`urlproxy`参数,可能遇到的[跨域访问问题解决方案](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
 - 直接请求url以及参数设置如下：
-   - alias 别名
-   - p     默认1000
-   - rgb   分别为对应rgb值，范围0～22222，值越大亮度越大
+   - alias: 别名
+   - p    : 默认1000
+   - rgb  : 分别为对应rgb值，范围0～22222，值越大亮度越大
+   - http method: GET
    - `var url = 'http://rest.yunba.io:8080?method=publish_to_alias&appkey=56556dd4f085fc471efe0688&seckey=sec-uTYMY37JTlH5hEmsvmgO8FkZYwkkPA45VAuDifUeQIsh4enS&alias='+config.alias+'&msg={"p":'+config.p+',"r":'+config.red+',"g":'+config.green+',"b":'+config.blue+'}';`
 
 ###运行
