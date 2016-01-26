@@ -18,7 +18,7 @@
 
  `var frevolObj={"Sarah":{"r":105,"g":"","b":255,"volume":0}}; `
 
-3. 因为是前端AJAX请求，所以直接请求url可能遇到跨域问题。设置`urlproxy`参数,可能遇到的[跨域访问问题]解决方案(http://www.cnblogs.com/gabrielchen/p/5066120.html)。
+3. 因为是前端AJAX请求，所以直接请求url可能遇到跨域问题。设置`urlproxy`参数,可能遇到的[跨域访问问题解决方案](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
 - 直接请求url以及参数设置如下：
    - alias 别名
    - p     默认1000
