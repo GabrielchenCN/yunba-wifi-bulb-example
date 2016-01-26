@@ -18,8 +18,8 @@
 
  `var frevolObj={"Sarah":{"r":105,"g":"","b":255,"volume":0}}; `
 
-3. 根据[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)文档设置`urlproxy`参数,可能遇到[跨域访问问题](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
-- url以及参数设置如下：
+3. 因为是前端AJAX请求，所以直接请求url可能遇到跨域问题。设置`urlproxy`参数,可能遇到的[跨域访问问题]解决方案(http://www.cnblogs.com/gabrielchen/p/5066120.html)。
+- 直接请求url以及参数设置如下：
    - alias 别名
    - p     默认1000
    - rgb   分别为对应rgb值，范围0～22222，值越大亮度越大
