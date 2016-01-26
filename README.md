@@ -1,4 +1,4 @@
-## YunBa - Wi-Fi灯泡案例说明
+## YunBa - Wi-Fi灯泡web端声控说明
 
 使用 Web Audio API 和 [云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)的Restful API,在web端通过声音控制云巴智能小灯泡的亮度和颜色。
 
