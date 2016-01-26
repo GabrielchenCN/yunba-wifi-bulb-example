@@ -20,10 +20,10 @@
 
 3. 根据[云巴智能灯泡](https://github.com/yunbaidea/yunbabulb)文档设置`urlproxy`参数,可能遇到[跨域访问问题](http://www.cnblogs.com/gabrielchen/p/5066120.html)。
 - url以及参数设置如下：
-    alias 别名
-    p     默认1000
-    rgb   分别为对应rgb值，范围0～22222，值越大亮度越大
-    `var url = 'http://rest.yunba.io:8080?method=publish_to_alias&appkey=56556dd4f085fc471efe0688&seckey=sec-uTYMY37JTlH5hEmsvmgO8FkZYwkkPA45VAuDifUeQIsh4enS&alias='+config.alias+'&msg={"p":'+config.p+',"r":'+config.red+',"g":'+config.green+',"b":'+config.blue+'}';`
+   - alias 别名
+   - p     默认1000
+   - rgb   分别为对应rgb值，范围0～22222，值越大亮度越大
+   - `var url = 'http://rest.yunba.io:8080?method=publish_to_alias&appkey=56556dd4f085fc471efe0688&seckey=sec-uTYMY37JTlH5hEmsvmgO8FkZYwkkPA45VAuDifUeQIsh4enS&alias='+config.alias+'&msg={"p":'+config.p+',"r":'+config.red+',"g":'+config.green+',"b":'+config.blue+'}';`
 
 ###运行
 
